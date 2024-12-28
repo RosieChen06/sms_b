@@ -14,9 +14,5 @@ app.get('/',(req,res)=>{
     res.send('API WORKING')
 })
 
-app.listen(port, ()=>console.log("Server Started", port))
-module.exports = (req, res) => {
-    res.status(200).json({ message: 'Hello from Vercel!' });
-  };
-
-export default app
+// app.listen(port, ()=>console.log("Server Started", port))
+export default app;
