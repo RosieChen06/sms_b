@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js", //須視情況修改正確路徑與檔名
+      "src": "server.js", 
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js" //須視情況修改正確路徑與檔名
+      "dest": "server.js" 
     }
   ]
 }
